@@ -10,7 +10,7 @@
 }
 
 body {
-	background: #f4f5f9;
+	background: #fafafa;
 }
 
 header {
@@ -23,7 +23,7 @@ header {
 }
 
 header h2 {
-	font-size: 1.8rem;
+	font-size: 1.3rem;
 }
 
 header h2 span {
@@ -32,6 +32,9 @@ header h2 span {
 
 header h2 {
 	width: 20%;
+}
+a{
+	padding: 2rem;
 }
 
 #menu-toggle {
@@ -115,16 +118,20 @@ header a {
 } 
 
 .carousel-item:first-child {
-	background: #8995a5;
+	background: #f2a8a2;
 }
 
 .carousel-item:nth-child(2) {
-	background: #303133;
+	background: #b329d6;
 }
 
 .carousel-item:nth-child(3) {
 	background: #1daadf;
 }
+.carousel-item:nth-child(4) {
+	background: ;
+}
+
 
 .carousel-info h1 {
 	margin-bottom: 1rem;
@@ -249,6 +256,7 @@ header a {
 
 .single-card {
 	height: 300px;
+	width: 300px;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	border-radius: 5px;
@@ -261,7 +269,7 @@ footer {
 	grid-template-columns: 22% 78%;
 	grid-gap: 2rem;
 	color: #6a6b6d;
-	background: #fff;
+	background: #090b24;
 }
 
 .footer-menu {
